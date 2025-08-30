@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the trained model
-with open("pickle/model.pkl", "rb") as file:
+with open("model.pkl", "rb") as file:
     model = pickle.load(file)
 
 # Define feature names and their limits
